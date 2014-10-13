@@ -1,0 +1,13 @@
+add $t0, $t0, $s0.
+sw $ra, 2($t2).
+lw $t5, 2($t2).
+sub $t1, $t1, $a0.
+or $t6, $t7, $t5.
+and $s3, $s0, $s2.
+lw $t6, 2($t2).
+sw $gp, 8($zero).
+lw $v0, 8($zero).
+and $a0, $v0, $t5.
+or $a0, $a0, $t2.
+add $t1, $a0, $v0.
+slt $sp, $a0, $t1.

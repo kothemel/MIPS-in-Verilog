@@ -1,0 +1,6 @@
+add    $2, $4, $0.
+sub    $t0 ,$zero, $6.   // subtraction
+or     $31 $at $gp.
+beq    $0, $0, -2
+and    $s1 $3 , $t0.
+beq    $ra $gp -3.

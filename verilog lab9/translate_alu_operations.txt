@@ -1,0 +1,6 @@
+0	and
+1	or
+2	add
+6	sub
+7	slt
+C	nor

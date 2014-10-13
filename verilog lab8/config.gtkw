@@ -1,0 +1,102 @@
+[*]
+[*] GTKWave Analyzer v3.3.49 (w)1999-2013 BSI
+[*] Fri Dec  6 14:45:56 2013
+[*]
+[dumpfile] "/home/kothemel/Desktop/verilog lab8/lab8.vcd"
+[dumpfile_mtime] "Fri Dec  6 14:45:13 2013"
+[dumpfile_size] 7094
+[optimize_vcd]
+[savefile] "/home/kothemel/Desktop/verilog lab8/config.gtkw"
+[timestart] 0
+[size] 1311 744
+[pos] -1 -1
+*-16.531288 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.cpu0.
+[treeopen] cpu_tb.cpu0.datapass.
+[sst_width] 223
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 234
+@24
+cpu_tb.clock
+cpu_tb.reset
+@200
+-
+@24
+cpu_tb.cpu0.datapass.pc[31:0]
+cpu_tb.cpu0.datapass.pc_new[31:0]
+@200
+-
+@24
+cpu_tb.cpu0.datapass.op[5:0]
+cpu_tb.cpu0.dec_alu.alu_op[1:0]
+cpu_tb.cpu0.dec_main.AluSrc
+cpu_tb.cpu0.dec_main.MemRead
+cpu_tb.cpu0.dec_main.MemReg
+cpu_tb.cpu0.dec_main.MemWrite
+cpu_tb.cpu0.dec_main.RegDist
+cpu_tb.cpu0.dec_main.RegWrite
+@29
+cpu_tb.cpu0.datapass.Branch
+@200
+-
+@24
+cpu_tb.cpu0.dec_alu.alu_ctrl[3:0]
+cpu_tb.cpu0.dec_alu.func_code[5:0]
+@200
+-
+@24
+cpu_tb.cpu0.datapass.cpu_regs.raA[4:0]
+cpu_tb.cpu0.datapass.rdA[31:0]
+cpu_tb.cpu0.datapass.cpu_regs.raB[4:0]
+@c00024
+cpu_tb.cpu0.datapass.rdB[31:0]
+@28
+(0)cpu_tb.cpu0.datapass.rdB[31:0]
+(1)cpu_tb.cpu0.datapass.rdB[31:0]
+(2)cpu_tb.cpu0.datapass.rdB[31:0]
+(3)cpu_tb.cpu0.datapass.rdB[31:0]
+(4)cpu_tb.cpu0.datapass.rdB[31:0]
+(5)cpu_tb.cpu0.datapass.rdB[31:0]
+(6)cpu_tb.cpu0.datapass.rdB[31:0]
+(7)cpu_tb.cpu0.datapass.rdB[31:0]
+(8)cpu_tb.cpu0.datapass.rdB[31:0]
+(9)cpu_tb.cpu0.datapass.rdB[31:0]
+(10)cpu_tb.cpu0.datapass.rdB[31:0]
+(11)cpu_tb.cpu0.datapass.rdB[31:0]
+(12)cpu_tb.cpu0.datapass.rdB[31:0]
+(13)cpu_tb.cpu0.datapass.rdB[31:0]
+(14)cpu_tb.cpu0.datapass.rdB[31:0]
+(15)cpu_tb.cpu0.datapass.rdB[31:0]
+(16)cpu_tb.cpu0.datapass.rdB[31:0]
+(17)cpu_tb.cpu0.datapass.rdB[31:0]
+(18)cpu_tb.cpu0.datapass.rdB[31:0]
+(19)cpu_tb.cpu0.datapass.rdB[31:0]
+(20)cpu_tb.cpu0.datapass.rdB[31:0]
+(21)cpu_tb.cpu0.datapass.rdB[31:0]
+(22)cpu_tb.cpu0.datapass.rdB[31:0]
+(23)cpu_tb.cpu0.datapass.rdB[31:0]
+(24)cpu_tb.cpu0.datapass.rdB[31:0]
+(25)cpu_tb.cpu0.datapass.rdB[31:0]
+(26)cpu_tb.cpu0.datapass.rdB[31:0]
+(27)cpu_tb.cpu0.datapass.rdB[31:0]
+(28)cpu_tb.cpu0.datapass.rdB[31:0]
+(29)cpu_tb.cpu0.datapass.rdB[31:0]
+(30)cpu_tb.cpu0.datapass.rdB[31:0]
+(31)cpu_tb.cpu0.datapass.rdB[31:0]
+@1401200
+-group_end
+@200
+-
+@24
+cpu_tb.cpu0.datapass.alu_out[31:0]
+cpu_tb.cpu0.datapass.zero
+@200
+-
+@24
+cpu_tb.cpu0.datapass.cpu_regs.wen
+cpu_tb.cpu0.datapass.cpu_regs.wa[4:0]
+cpu_tb.cpu0.datapass.cpu_regs.wd[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

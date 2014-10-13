@@ -1,0 +1,151 @@
+[*]
+[*] GTKWave Analyzer v3.3.49 (w)1999-2013 BSI
+[*] Tue Jan 14 11:31:56 2014
+[*]
+[dumpfile] "/home/kothemel/Desktop/verilog lab9/lab.vcd"
+[dumpfile_mtime] "Tue Jan 14 11:29:46 2014"
+[dumpfile_size] 29348
+[optimize_vcd]
+[savefile] "/home/kothemel/Desktop/verilog lab9/config.gtkw"
+[timestart] 112700
+[size] 1311 744
+[pos] -1 -1
+*-16.531288 364100 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.cpu0.
+[sst_width] 223
+[signals_width] 268
+[sst_expanded] 1
+[sst_vpaned_height] 234
+@200
+-System
+@24
+cpu_tb.clock
+cpu_tb.reset
+@420
+cpu_tb.cpu0.pc[31:0]
+@24
+cpu_tb.cpu0.pc_new[31:0]
+@200
+-
+@2028
+^1 /home/kothemel/Desktop/verilog lab9/translate_instruction.txt
+cpu_tb.cpu0.instr[31:0]
+@200
+-Main Decoder
+@28
+cpu_tb.cpu0.alu_op[1:0]
+cpu_tb.cpu0.AluSrc
+cpu_tb.cpu0.MemRead
+cpu_tb.cpu0.MemReg
+cpu_tb.cpu0.MemWrite
+cpu_tb.cpu0.RegDest
+cpu_tb.cpu0.RegWrite
+@420
+cpu_tb.cpu0.cpu_regs.\data[2][31:0]
+cpu_tb.cpu0.cpu_regs.\data[4][31:0]
+cpu_tb.cpu0.cpu_regs.\data[8][31:0]
+cpu_tb.cpu0.cpu_regs.\data[9][31:0]
+cpu_tb.cpu0.cpu_regs.\data[13][31:0]
+cpu_tb.cpu0.cpu_regs.\data[14][31:0]
+cpu_tb.cpu0.cpu_regs.\data[19][31:0]
+cpu_tb.cpu0.cpu_regs.\data[29][31:0]
+@200
+-
+-ALU Decoder
+@2024
+^2 /home/kothemel/Desktop/verilog lab9/translate_alu_operations.txt
+cpu_tb.cpu0.alu_ctrl[3:0]
+@22
+cpu_tb.cpu0.my_alu.alu_ctrl[3:0]
+@2022
+^3 /home/kothemel/Desktop/verilog lab9/translate_opcode.txt
+cpu_tb.cpu0.op[5:0]
+@24
+cpu_tb.cpu0.func_code[5:0]
+cpu_tb.cpu0.alu_out[31:0]
+@22
+cpu_tb.cpu0.multi3.out[31:0]
+@200
+-
+-Registers
+@24
+cpu_tb.cpu0.rdA[31:0]
+@2024
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.cpu_regs.raA[4:0]
+@200
+-
+@24
+cpu_tb.cpu0.rdB[31:0]
+@2024
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.cpu_regs.raB[4:0]
+@200
+-
+-Memory
+@28
+cpu_tb.cpu0.cpu_regs.wen
+@2024
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.cpu_regs.wa[4:0]
+@22
+cpu_tb.cpu0.cpu_regs.wd[31:0]
+cpu_tb.cpu0.mem_out[31:0]
+@200
+-
+-Pipeline Signals
+-IF/ID
+@24
+cpu_tb.cpu0.IFIDir[31:0]
+@2024
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.IFIDrd[4:0]
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.IFIDrs[4:0]
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.IFIDrt[4:0]
+@200
+-ID/EX
+@24
+cpu_tb.cpu0.IDEX_AluSrc
+cpu_tb.cpu0.IDEX_MemRead
+cpu_tb.cpu0.IDEX_MemToReg
+cpu_tb.cpu0.IDEX_MemWrite
+cpu_tb.cpu0.IDEX_RegDest
+cpu_tb.cpu0.IDEX_RegWrite
+cpu_tb.cpu0.IDEXa[31:0]
+cpu_tb.cpu0.IDEXb[31:0]
+@2024
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.IDEXrd[4:0]
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.IDEXrs[4:0]
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.IDEXrt[4:0]
+@24
+cpu_tb.cpu0.IDEXsigex[31:0]
+@200
+-EX/MEM
+@24
+cpu_tb.cpu0.EXMEM_MemRead
+cpu_tb.cpu0.EXMEM_MemToReg
+cpu_tb.cpu0.EXMEM_MemWrite
+cpu_tb.cpu0.EXMEM_RegWrite
+cpu_tb.cpu0.EXMEMaluout[31:0]
+cpu_tb.cpu0.EXMEMrdB[31:0]
+@2024
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.EXMEMreg[4:0]
+@200
+-MEM/WB
+@24
+cpu_tb.cpu0.MEMWB_MemToReg
+cpu_tb.cpu0.MEMWB_RegWrite
+cpu_tb.cpu0.MEMWBaluout[31:0]
+cpu_tb.cpu0.MEMWBmemout[31:0]
+@2024
+^4 /home/kothemel/Desktop/verilog lab9/translate_register_names.txt
+cpu_tb.cpu0.MEMWBreg[4:0]
+[pattern_trace] 1
+[pattern_trace] 0
